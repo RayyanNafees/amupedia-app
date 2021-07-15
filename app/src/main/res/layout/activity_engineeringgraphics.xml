@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ctr_bg"
+    tools:context="edu.educ.amupedia.appliedphysicslabf">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="@color/black"
+            app:layout_scrollFlags="scroll|snap|enterAlways">
+
+            <VideoView
+                android:id="@+id/vved"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/white"
+        android:elevation="50dp"
+        android:src="@drawable/ic_baseline_drag_handle_24"
+        app:backgroundTint="@color/white"
+        app:layout_anchor="@id/appbarlayout"
+        app:layout_anchorGravity="bottom|left|end" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="SYLLABUS OF ENGINEERING GRAPHICS"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:id="@+id/engineeringraphicssyllabus"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="21dp"
+                android:clickable="true"
+                android:layout_marginTop="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pdf" />
+            <View
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="COURSE MATERIAL: "
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="sans-serif-light"
+                android:text="VIDEOS :"
+                android:textColor="@color/black"
+                android:textSize="27dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+            <ImageView
+                android:id="@+id/engineeringraphicsy1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/engineeringraphicsy2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="94dp"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/engineeringraphicsy3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="163dp"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/engineeringraphicsy4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="232dp"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/engineeringraphicsy5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="301dp"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/youtube" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/engineeringraphicsy6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/engineeringraphicsy7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="94dp"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/youtube" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:background="@android:color/darker_gray" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-light"
+                android:text="PDF's :"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/engineeringraphicsp1"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="21dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+
+                <ImageView
+                    android:id="@+id/engineeringraphicsp2"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="90dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+
+                <ImageView
+                    android:id="@+id/engineeringraphicsp3"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="159dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+
+                <ImageView
+                    android:id="@+id/engineeringraphicsp4"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="228dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+
+                <ImageView
+                    android:id="@+id/engineeringraphicsp5"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="297dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+            <ImageView
+                android:id="@+id/engineeringraphicsp6"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="21dp"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pdf" />
+
+            <ImageView
+                android:id="@+id/engineeringraphicsp7"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="90dp"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pdf" />
+            </RelativeLayout>
+
+            ///////////////////////////
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:background="@android:color/darker_gray" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Sheets :"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/sheet1"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="21dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Sheet 1"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/sheet2"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="97dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Sheet 2"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/sheet3"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="173dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="173dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Sheet 3"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/sheet4"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="249dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="249dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Sheet 4"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+                <ImageView
+                    android:id="@+id/sheet5"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="21dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Sheet 5"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+
+                <ImageView
+                    android:id="@+id/sheet6"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="97dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Sheet 6"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/sheet7"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="173dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="173dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Sheet 7"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:background="@android:color/darker_gray" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/ed_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/6809733896">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ctr_bg"
+    tools:context="edu.educ.amupedia.Btechfirstyear">
+
+  <com.google.android.material.appbar.AppBarLayout
+      android:id="@+id/appbarlayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentScrim="@color/black"
+        app:layout_scrollFlags="scroll|snap|enterAlways">
+
+      <VideoView
+          android:id="@+id/vvsubjects"
+          android:layout_width="match_parent"
+          android:layout_height="250dp"
+          android:scaleType="centerCrop" />
+
+      <androidx.appcompat.widget.Toolbar
+          android:layout_width="match_parent"
+          android:layout_height="?attr/actionBarSize"
+          app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+      </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/fmain"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="32dp"
+      android:backgroundTint="@color/white"
+      android:elevation="50dp"
+      android:src="@drawable/ic_baseline_drag_handle_24"
+      app:backgroundTint="@color/white"
+      app:layout_anchor="@id/appbarlayout"
+      app:layout_anchorGravity="bottom|left|end" />
+
+  <androidx.core.widget.NestedScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/layout_bg"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/layout_bg">
+
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30dp"
+          android:fontFamily="sans-serif-light"
+          android:padding="25dp"
+          android:text="SELECT THE SUBJECT"
+          android:textColor="@color/black"
+          android:layout_gravity="center_horizontal"
+          android:textSize="25dp"/>
+
+      <Button
+          android:id="@+id/Applied_Mathematics_1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="5dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Applied Mathematics 1"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <Button
+          android:id="@+id/Applied_Mathematics_2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Applied Mathematics 2"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <Button
+          android:id="@+id/Applied_Chemistry"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Applied Chemistry"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <Button
+          android:id="@+id/Applied_Chemistry_Lab"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Applied Chemistry Lab"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+
+      <Button
+          android:id="@+id/Applied_Physics"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Applied Physics"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <Button
+          android:id="@+id/Applied_physics_Lab"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Applied physics Lab"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <Button
+          android:id="@+id/Thermo_Dynamics"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="ThermoDynamics"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <Button
+          android:id="@+id/Electrical_Engineering"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Electrical Engineering"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+
+
+      <Button
+          android:id="@+id/Environmental_Studies"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Environmental Studies"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <Button
+          android:id="@+id/Computer_engineering"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Computer Engineering"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+
+
+      <Button
+          android:id="@+id/Engineering_Graphics"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Engineering Graphics"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <Button
+          android:id="@+id/English"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="English"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+
+
+      <Button
+          android:id="@+id/Mechanics"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Mechanics"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <Button
+          android:id="@+id/Manufacturing_lab"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Manufacturing Lab"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <Button
+          android:id="@+id/Strength_Of_Materials"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Strength Of Materials"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <Button
+          android:id="@+id/Electronics"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/white"
+          android:fontFamily="sans-serif-light"
+          android:text="Electronics"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="15dp"
+          android:text="           "/>
+
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/btechfirstyear_banner"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3502546896023212/9954771983">
+        </com.google.android.gms.ads.AdView>
+
+      </RelativeLayout>
+
+
+    </LinearLayout>
+  </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

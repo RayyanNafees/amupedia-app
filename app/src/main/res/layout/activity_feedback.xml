@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.educ.amupedia.Drawyer"
+    android:background="#F7F7F7"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F7F7F7"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/newlogo"
+            android:screenReaderFocusable="true"/>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-light"
+        android:text="AMUPEDIA"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="-20dp"/>
+
+
+
+    <androidx.cardview.widget.CardView
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center_horizontal"
+    app:cardCornerRadius="40dp"
+    android:elevation="30dp"
+    android:layout_marginTop="40dp"
+    android:backgroundTint="#18154C"
+    android:outlineAmbientShadowColor="@color/black"
+    android:outlineSpotShadowColor="@color/black">
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:hint="Enter Your Name"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/Feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:hint="Enter The feedback"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+        android:backgroundTint="#F7F7F7"
+        android:fontFamily="sans-serif-light"
+        android:text="SUBMIT"
+        android:textColor="@color/black" />
+
+</androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <com.google.android.gms.ads.AdView
+
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/feedback_banner"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/6945465266">
+
+            </com.google.android.gms.ads.AdView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

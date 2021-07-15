@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "653353744471",
+    "project_id": "amupedia-21133",
+    "storage_bucket": "amupedia-21133.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653353744471:android:3885059765551cef304b12",
+        "android_client_info": {
+          "package_name": "edu.educ.amupedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653353744471-9lvnuq97oetc4clctjurqlrve5kjl0dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZwgpqMh3lV3DaFwmYq6mPA8VvlGdoaeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653353744471-9lvnuq97oetc4clctjurqlrve5kjl0dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
