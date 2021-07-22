@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ctr_bg"
-    tools:context="edu.educ.amupedia.Apmfbtf">
+    tools:context="education.educate.amupedia.Apmfbtf">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarlayout"
@@ -60,20 +60,38 @@
             android:layout_marginTop="40dp"
             android:orientation="vertical">
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/evs2_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/7235155597">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="8dp"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="35dp"
                 android:fontFamily="sans-serif-light"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:text="SYLLABUS OF ENVIRONMENTAL STUDIES"
                 android:textColor="@color/black"
-                android:textSize="27dp" />
+                android:textSize="22dp" />
             <ImageView
                 android:id="@+id/evssyllabus"
                 android:layout_width="37dp"
@@ -90,7 +108,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/evs3_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/2481167149">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -194,6 +230,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/evs4_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/1168085475">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
 
 
@@ -278,7 +333,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/evs5_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/7541922130">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
  /////////////////////////////////// 3
 

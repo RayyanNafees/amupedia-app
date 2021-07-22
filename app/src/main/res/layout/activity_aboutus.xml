@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.educ.amupedia.Aboutus"
+    tools:context="education.educate.amupedia.Aboutus"
     android:background="@drawable/ctr_bg">
     
 
@@ -60,7 +60,25 @@
         android:layout_marginTop="0dp"
         android:orientation="vertical">
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
 
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/about2_banner"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/4786205782">
+            </com.google.android.gms.ads.AdView>
+
+        </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -92,7 +110,25 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"/>
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
 
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/about3_banner"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/1693138584">
+            </com.google.android.gms.ads.AdView>
+
+        </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"

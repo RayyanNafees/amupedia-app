@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ctr_bg"
-    tools:context="edu.educ.amupedia.MainActivity">
+    tools:context="education.educate.amupedia.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarlayout"
@@ -57,17 +57,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="90dp"
             android:orientation="vertical"
-            tools:ignore="ExtraText"
-            android:layout_marginTop="90dp">
-/////////////////////////////////////////
+            tools:ignore="ExtraText">
+            /////////////////////////////////////////
 
             <ImageView
                 android:layout_width="220dp"
                 android:layout_height="190dp"
-                android:src="@drawable/mazinp"
+                android:layout_gravity="center_horizontal"
                 android:scaleType="centerCrop"
-                android:layout_gravity="center_horizontal"/>
+                android:src="@drawable/mazinp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -82,12 +82,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="2dp"
                 android:fontFamily="serif-monospace"
                 android:text="APP DEVELOPER"
                 android:textColor="@color/black"
-                android:textSize="20dp"
-                android:layout_gravity="center_horizontal"/>
+                android:textSize="20dp" />
 
 
             <RelativeLayout
@@ -100,7 +100,6 @@
                     android:id="@+id/mazingmail"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
-
                     android:layout_marginTop="10dp"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
@@ -115,8 +114,8 @@
                     android:layout_marginLeft="65dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/instagram"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/instagram" />
 
                 <ImageView
                     android:id="@+id/mazintwitter"
@@ -125,35 +124,34 @@
                     android:layout_marginLeft="125dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/twitter"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="centerCrop"
                     android:paddingTop="5dp"
-                    />
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/twitter" />
 
             </RelativeLayout>
 
 
-
             ///////////////////////////////////
+
             <ImageView
                 android:layout_width="220dp"
                 android:layout_height="190dp"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="0dp"
-                android:src="@drawable/anmol"
                 android:layout_marginTop="60dp"
                 android:scaleType="centerCrop"
-                android:layout_gravity="center_horizontal"/>
+                android:src="@drawable/anmol" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-light"
                 android:text="ANMOL AGARWAL"
                 android:textColor="@color/black"
-                android:textSize="20dp"
-                android:layout_gravity="center_horizontal"/>
+                android:textSize="20dp" />
 
 
             <RelativeLayout
@@ -169,11 +167,10 @@
 
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/twitter"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="centerCrop"
                     android:paddingTop="5dp"
-                    />
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/twitter" />
 
                 <ImageView
                     android:id="@+id/anmollinstagram"
@@ -182,8 +179,8 @@
                     android:layout_marginLeft="60dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/instagram"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/instagram" />
 
                 <ImageView
                     android:id="@+id/anmollinkden"
@@ -192,9 +189,8 @@
                     android:layout_marginLeft="120dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/linkedin"
                     android:foreground="?android:attr/selectableItemBackground"
-                    />
+                    android:src="@drawable/linkedin" />
 
             </RelativeLayout>
 
@@ -203,10 +199,10 @@
                 android:layout_width="220dp"
                 android:layout_height="190dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/haider"
-
                 android:layout_marginTop="60dp"
-                android:scaleType="centerCrop"/>
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/haider" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -224,27 +220,26 @@
                 android:layout_gravity="center_horizontal">
 
 
-            <ImageView
-                android:id="@+id/haidertwitter"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="15dp"
-                android:clickable="true"
-                android:src="@drawable/twitter"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:scaleType="centerCrop"
-                android:paddingTop="5dp"
-                />
+                <ImageView
+                    android:id="@+id/haidertwitter"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/twitter" />
 
-            <ImageView
-                android:id="@+id/haiderinstagram"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="15dp"
-                android:clickable="true"
-                android:src="@drawable/instagram"
-                android:foreground="?android:attr/selectableItemBackground"/>
+                <ImageView
+                    android:id="@+id/haiderinstagram"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="15dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/instagram" />
 
                 <ImageView
                     android:id="@+id/haiderinkden"
@@ -253,20 +248,19 @@
                     android:layout_marginLeft="120dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/linkedin"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/linkedin" />
 
             </RelativeLayout>
-
 
 
             <ImageView
                 android:layout_width="220dp"
                 android:layout_height="190dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/abhishekn"
+                android:layout_marginTop="65dp"
                 android:scaleType="centerCrop"
-                android:layout_marginTop="65dp"/>
+                android:src="@drawable/abhishekn" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -280,8 +274,8 @@
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
 
                 <ImageView
@@ -291,11 +285,10 @@
 
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/twitter"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="centerCrop"
                     android:paddingTop="5dp"
-                    />
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/twitter" />
 
                 <ImageView
                     android:id="@+id/abhishekinstagram"
@@ -304,8 +297,8 @@
                     android:layout_marginLeft="60dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/instagram"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/instagram" />
 
                 <ImageView
                     android:id="@+id/abhisheklinkden"
@@ -314,30 +307,31 @@
                     android:layout_marginLeft="120dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/linkedin"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/linkedin" />
 
             </RelativeLayout>
 
-//
+            //
+
             <ImageView
                 android:layout_width="220dp"
                 android:layout_height="190dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/sabir"
                 android:layout_marginLeft="0dp"
                 android:layout_marginTop="60dp"
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop"
+                android:src="@drawable/sabir" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-light"
                 android:text="MUHAIYUDDIN SABIR"
                 android:textColor="@color/black"
-                android:textSize="20dp"
-                android:layout_gravity="center_horizontal"/>
+                android:textSize="20dp" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -352,11 +346,10 @@
 
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/twitter"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="centerCrop"
                     android:paddingTop="5dp"
-                    />
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/twitter" />
 
                 <ImageView
                     android:id="@+id/sabirinstagram"
@@ -365,8 +358,8 @@
                     android:layout_marginLeft="60dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/instagram"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/instagram" />
 
                 <ImageView
                     android:id="@+id/sabirlinkden"
@@ -375,20 +368,20 @@
                     android:layout_marginLeft="120dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/linkedin"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/linkedin" />
 
             </RelativeLayout>
-//
+            //
+
             <ImageView
                 android:layout_width="220dp"
                 android:layout_height="190dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/mayank"
                 android:layout_marginLeft="0dp"
                 android:layout_marginTop="60dp"
                 android:scaleType="centerCrop"
-                />
+                android:src="@drawable/mayank" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -413,11 +406,10 @@
 
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/twitter"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="centerCrop"
                     android:paddingTop="5dp"
-                    />
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/twitter" />
 
                 <ImageView
                     android:id="@+id/mayankinstagram"
@@ -426,8 +418,8 @@
                     android:layout_marginLeft="60dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/instagram"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/instagram" />
 
                 <ImageView
                     android:id="@+id/mayanklinkden"
@@ -436,8 +428,8 @@
                     android:layout_marginLeft="120dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/linkedin"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/linkedin" />
 
             </RelativeLayout>
 
@@ -447,10 +439,10 @@
             <ImageView
                 android:layout_width="220dp"
                 android:layout_height="190dp"
-                android:src="@drawable/shalini"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="60dp"
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop"
+                android:src="@drawable/shalini" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -475,11 +467,10 @@
 
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/twitter"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="centerCrop"
                     android:paddingTop="5dp"
-                    />
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/twitter" />
 
                 <ImageView
                     android:id="@+id/shaliniinstagram"
@@ -488,8 +479,8 @@
                     android:layout_marginLeft="60dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/instagram"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/instagram" />
 
                 <ImageView
                     android:id="@+id/shalinilinkden"
@@ -498,8 +489,8 @@
                     android:layout_marginLeft="120dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/linkedin"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/linkedin" />
 
             </RelativeLayout>
 
@@ -511,20 +502,20 @@
                 android:layout_width="220dp"
                 android:layout_height="190dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/muneeba"
                 android:layout_marginTop="60dp"
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop"
+                android:src="@drawable/muneeba" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-light"
                 android:text="MUNEEBA RAHMAN"
                 android:textColor="@color/black"
-                android:textSize="20dp"
-                android:layout_gravity="center_horizontal"/>
+                android:textSize="20dp" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -538,11 +529,10 @@
                     android:layout_height="30dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/twitter"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="centerCrop"
                     android:paddingTop="5dp"
-                    />
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/twitter" />
 
                 <ImageView
                     android:id="@+id/muneebainstagram"
@@ -551,8 +541,8 @@
                     android:layout_marginLeft="60dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/instagram"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/instagram" />
 
                 <ImageView
                     android:id="@+id/muneebalinkden"
@@ -561,11 +551,10 @@
                     android:layout_marginLeft="120dp"
                     android:layout_marginTop="15dp"
                     android:clickable="true"
-                    android:src="@drawable/linkedin"
-                    android:foreground="?android:attr/selectableItemBackground"/>
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/linkedin" />
 
             </RelativeLayout>
-
 
 
             <Button
@@ -573,10 +562,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_gravity="center_vertical"
-                android:layout_marginTop="40dp"
-                android:backgroundTint="#20144C"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginRight="10dp"
+                android:backgroundTint="#20144C"
                 android:fontFamily="sans-serif-light"
                 android:text="VOLUNTEERS"
                 android:textColor="@color/white"
@@ -589,24 +578,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="                          "
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal">
 
-                <com.google.android.gms.ads.AdView
-                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
                     android:id="@+id/team_banner"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
-                    android:layout_centerHorizontal="true"
                     android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
                     ads:adSize="BANNER"
-                    ads:adUnitId="ca-app-pub-3502546896023212/3698401113">
-                </com.google.android.gms.ads.AdView>
+                    ads:adUnitId="ca-app-pub-3502546896023212/3698401113"></com.google.android.gms.ads.AdView>
 
             </RelativeLayout>
 

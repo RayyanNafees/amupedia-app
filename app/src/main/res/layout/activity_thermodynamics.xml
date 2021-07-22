@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ctr_bg"
-    tools:context="edu.educ.amupedia.appliedphysicslabf">
+    tools:context="education.educate.amupedia.appliedphysicslabf">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarlayout"
@@ -54,24 +54,40 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="40dp"
             android:orientation="vertical">
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/thermo2_banner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/9314524027">
+
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="25dp"
                 android:fontFamily="sans-serif-light"
                 android:text="SYLLABUS OF THERMODYNAMICS"
-                android:layout_marginRight="25dp"
                 android:textColor="@color/black"
                 android:textSize="22dp" />
 
@@ -81,10 +97,11 @@
                 android:layout_width="37dp"
                 android:layout_height="37dp"
                 android:layout_marginLeft="21dp"
-                android:clickable="true"
                 android:layout_marginTop="15dp"
+                android:clickable="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/pdf" />
+
             <View
                 android:layout_width="300dp"
                 android:layout_height="2dp"
@@ -92,7 +109,23 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/thermo3_banner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/6995127222"></com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -109,8 +142,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
-                android:clickable="true"
                 android:layout_marginTop="15dp"
+                android:clickable="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/youtube" />
 
@@ -121,16 +154,34 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/thermo4_banner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/5682045558"></com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
 
             //////////////////////////////////////////////////
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="45dp"
-                android:fontFamily="sans-serif-light"
                 android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-light"
                 android:text="UNIT 1- INTRODUCTION TO THERMODYNAMICS"
                 android:textColor="@color/black"
                 android:textSize="22dp" />
@@ -150,42 +201,43 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp">
 
-            <ImageView
-                android:id="@+id/thermodynamics_11"
-                android:layout_width="37dp"
-                android:layout_height="37dp"
-                android:layout_marginLeft="21dp"
-                android:clickable="true"
-                android:scaleType="centerCrop"
-                android:src="@drawable/pdf" />
+                <ImageView
+                    android:id="@+id/thermodynamics_11"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="21dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
 
-            <ImageView
-                android:id="@+id/thermodynamics_12"
-                android:layout_width="37dp"
-                android:layout_height="37dp"
-                android:layout_marginLeft="90dp"
-                android:clickable="true"
-                android:scaleType="centerCrop"
-                android:src="@drawable/pdf" />
+                <ImageView
+                    android:id="@+id/thermodynamics_12"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="90dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
 
-            <ImageView
-                android:id="@+id/thermodynamics_13"
-                android:layout_width="37dp"
-                android:layout_height="37dp"
-                android:layout_marginLeft="159dp"
-                android:clickable="true"
-                android:scaleType="centerCrop"
-                android:src="@drawable/pdf" />
+                <ImageView
+                    android:id="@+id/thermodynamics_13"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="159dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
 
-            <ImageView
-                android:id="@+id/thermodynamics_14"
-                android:layout_width="37dp"
-                android:layout_height="37dp"
-                android:layout_marginLeft="228dp"
-                android:clickable="true"
-                android:scaleType="centerCrop"
-                android:src="@drawable/pdf" />
+                <ImageView
+                    android:id="@+id/thermodynamics_14"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="228dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pdf" />
             </RelativeLayout>
+
             <View
                 android:layout_width="300dp"
                 android:layout_height="2dp"
@@ -193,17 +245,33 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/thermo5_banner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/4368963882"></com.google.android.gms.ads.AdView>
 
-////////////////////////////////////
+            </RelativeLayout>
+
+            ////////////////////////////////////
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="45dp"
-                android:fontFamily="sans-serif-light"
                 android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-light"
                 android:text="UNIT 2- FIRST LAW OF THERMODYNAMICS AND ITS APPLICATIONS"
                 android:textColor="@color/black"
                 android:textSize="22dp" />
@@ -268,6 +336,7 @@
                     android:scaleType="centerCrop"
                     android:src="@drawable/pdf" />
             </RelativeLayout>
+
             <View
                 android:layout_width="300dp"
                 android:layout_height="2dp"
@@ -276,15 +345,31 @@
                 android:background="@android:color/darker_gray" />
 
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
-            ////////////////////////////////////////////////  3
+                <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/thermo6_banner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/7935113302"></com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
+            //////////////////////////////////////////////// 3
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
                 android:layout_marginTop="45dp"
+                android:layout_marginRight="25dp"
                 android:fontFamily="sans-serif-light"
                 android:text="UNIT 3- PURE SUBSTANCE"
                 android:textColor="@color/black"
@@ -341,6 +426,7 @@
                     android:scaleType="centerCrop"
                     android:src="@drawable/pdf" />
             </RelativeLayout>
+
             <View
                 android:layout_width="300dp"
                 android:layout_height="2dp"
@@ -349,6 +435,23 @@
                 android:background="@android:color/darker_gray" />
 
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/thermo7_banner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/4062197344"></com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
 
             /////////////////////////////////////// 4
@@ -402,17 +505,15 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal">
 
-                <com.google.android.gms.ads.AdView
-                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
                     android:id="@+id/thermo_banner"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
-                    android:layout_centerHorizontal="true"
                     android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
                     ads:adSize="BANNER"
-                    ads:adUnitId="ca-app-pub-3502546896023212/2749115677">
-                </com.google.android.gms.ads.AdView>
+                    ads:adUnitId="ca-app-pub-3502546896023212/2749115677"></com.google.android.gms.ads.AdView>
 
             </RelativeLayout>
 

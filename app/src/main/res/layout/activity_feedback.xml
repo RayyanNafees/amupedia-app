@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.educ.amupedia.Drawyer"
+    tools:context="education.educate.amupedia.Drawyer"
     android:background="#F7F7F7"
     android:layout_gravity="center_horizontal">
 
@@ -14,6 +14,28 @@
         android:background="#F7F7F7"
         android:orientation="vertical"
         android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+
+            <com.google.android.gms.ads.AdView
+
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/feedback2_banner"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/9571628609">
+
+            </com.google.android.gms.ads.AdView>
+
+        </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="wrap_content"

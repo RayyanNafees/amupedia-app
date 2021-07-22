@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ctr_bg"
-    tools:context="edu.educ.amupedia.Apmfbtf">
+    tools:context="education.educate.amupedia.Apmfbtf">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarlayout"
@@ -60,12 +60,31 @@
             android:layout_marginTop="40dp"
             android:orientation="vertical">
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/elb2_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/2650997037">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="35dp"
                 android:fontFamily="sans-serif-light"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
@@ -90,6 +109,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/elb3_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/4835033592">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
 
           /////////////////////////////////// 1
@@ -174,7 +212,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/elb4_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/7987084194">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
 ///////////////////////////////////////////// 2
 
@@ -232,6 +288,25 @@
                 android:background="@android:color/darker_gray" />
 
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/elb5_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/1734582751">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
 
 
@@ -303,8 +378,28 @@
                 android:background="@android:color/darker_gray" />
 
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
-//////////////////////////////////////////////////   4
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/elb6_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/6482430832">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
+
+
+            //////////////////////////////////////////////////   4
 
 
             <TextView

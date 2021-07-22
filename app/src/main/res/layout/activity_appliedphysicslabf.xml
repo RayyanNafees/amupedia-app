@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ctr_bg"
-    tools:context="edu.educ.amupedia.appliedphysicslabf">
+    tools:context="education.educate.amupedia.appliedphysicslabf">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarlayout"
@@ -60,6 +60,25 @@
             android:layout_marginTop="40dp"
             android:orientation="vertical">
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/physicsl2_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/8384585737">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
 
             <TextView
@@ -67,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="8dp"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="35dp"
                 android:fontFamily="sans-serif-light"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
@@ -90,7 +109,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/physicsl3_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/6813603328">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -163,7 +200,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/physicsl99_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/9812862250">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
 
             <TextView
@@ -236,7 +291,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/physicsl5_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/7071504060">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -309,7 +382,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/physicsl6_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/4445340722">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -386,7 +477,25 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/physicsl7_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/4360746098">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
 
             <TextView
@@ -464,6 +573,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/physicsl8_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/1561276642">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
 
             <TextView
@@ -540,6 +668,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/physicsl9_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/5873617247">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
 
             <TextView
@@ -616,6 +763,26 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/physicsl10_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/4560535575">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -690,7 +857,25 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/physicsl11_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/8193014045">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -766,7 +951,25 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/physicsl12_banner"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3502546896023212/3247453908">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"

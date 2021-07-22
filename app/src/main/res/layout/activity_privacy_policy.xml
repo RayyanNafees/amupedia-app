@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.educ.amupedia.privacy_policy"
+    tools:context="education.educate.amupedia.privacy_policy"
     android:background="@color/white">
 
     <ScrollView

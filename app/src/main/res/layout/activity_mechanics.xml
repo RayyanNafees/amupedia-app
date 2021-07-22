@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ctr_bg"
-    tools:context="edu.educ.amupedia.mechanics">
+    tools:context="education.educate.amupedia.mechanics">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarlayout"
@@ -59,13 +59,25 @@
             android:layout_marginTop="40dp"
             android:orientation="vertical">
 
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/mc_banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/6235018822">
+            </com.google.android.gms.ads.AdView>
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="35dp"
                 android:fontFamily="sans-serif-light"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
@@ -93,6 +105,18 @@
                 android:background="@android:color/darker_gray" />
 
 
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/mc2_banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/5117378278">
+            </com.google.android.gms.ads.AdView>
 
 
             <TextView
@@ -168,6 +192,18 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/mc3_banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/2295773814">
+            </com.google.android.gms.ads.AdView>
 
 
             <TextView
@@ -240,7 +276,18 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
-
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/mc4_banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/8669610477">
+            </com.google.android.gms.ads.AdView>
 
 
             <TextView
@@ -295,7 +342,18 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
-
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/mc5_banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/3804296609">
+            </com.google.android.gms.ads.AdView>
 
             <TextView
                 android:layout_width="wrap_content"

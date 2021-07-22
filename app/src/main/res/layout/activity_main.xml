@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ctr_bg"
-    tools:context="edu.educ.amupedia.MainActivity">
+    tools:context="education.educate.amupedia.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarlayout"
@@ -353,7 +353,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_alignParentBottom="true"
                     ads:adSize="BANNER"
-                    ads:adUnitId="ca-app-pub-3502546896023212/4811747202">
+                    ads:adUnitId="ca-app-pub-3502546896023212/8639203776">
                 </com.google.android.gms.ads.AdView>
 
             </RelativeLayout>

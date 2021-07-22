@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ctr_bg"
-    tools:context="edu.educ.amupedia.Courses">
+    tools:context="education.educate.amupedia.Courses">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarlayout"

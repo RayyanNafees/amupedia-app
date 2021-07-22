@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ctr_bg"
-    tools:context="edu.educ.amupedia.english_btech">
+    tools:context="education.educate.amupedia.english_btech">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarlayout"
@@ -60,13 +60,24 @@
             android:layout_marginTop="40dp"
             android:orientation="vertical">
 
-
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/eng1_banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/2870488880">
+            </com.google.android.gms.ads.AdView>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="35dp"
                 android:fontFamily="sans-serif-light"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
@@ -91,6 +102,18 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/eng2_banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/9976513780">
+            </com.google.android.gms.ads.AdView>
 
 
             ////////////////////////////////////////// 1
@@ -139,7 +162,18 @@
                 android:background="@android:color/darker_gray" />
 
 
-
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/eng3_banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/7931243877">
+            </com.google.android.gms.ads.AdView>
 
             //////////////////////////////////// 2
 
@@ -196,7 +230,18 @@
                 android:layout_marginTop="45dp"
                 android:background="@android:color/darker_gray" />
 
-
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/eng4_banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/1365835526">
+            </com.google.android.gms.ads.AdView>
 
             ////////////////////////////////////////////////////// 3
 
@@ -264,7 +309,18 @@
                 android:background="@android:color/darker_gray" />
 
 
-
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/eng5_banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/8663432117">
+            </com.google.android.gms.ads.AdView>
 
             ////////////////////////////////////////////////////////// 4
 
@@ -340,7 +396,18 @@
                 android:background="@android:color/darker_gray" />
 
 
-
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/eng6_banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3502546896023212/7743541615">
+            </com.google.android.gms.ads.AdView>
             //////////////////////////////////// 5
 
             <TextView

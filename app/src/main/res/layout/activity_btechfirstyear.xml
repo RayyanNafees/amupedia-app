@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ctr_bg"
-    tools:context="edu.educ.amupedia.Btechfirstyear">
+    tools:context="education.educate.amupedia.Btechfirstyear">
 
   <com.google.android.material.appbar.AppBarLayout
       android:id="@+id/appbarlayout"
@@ -60,12 +60,30 @@
         android:orientation="vertical"
         android:background="@drawable/layout_bg">
 
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="45dp">
 
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/btechfirstyear5_banner"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3502546896023212/4894016994">
+        </com.google.android.gms.ads.AdView>
+
+      </RelativeLayout>
 
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_marginTop="30dp"
+          android:layout_marginTop="10dp"
           android:fontFamily="sans-serif-light"
           android:padding="25dp"
           android:text="SELECT THE SUBJECT"
@@ -121,13 +139,32 @@
           android:textColor="@color/black"
           android:textSize="20dp" />
 
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="25dp"
+          android:layout_marginBottom="22dp">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/btechfirstyear4_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3502546896023212/1178133262">
+        </com.google.android.gms.ads.AdView>
+      </RelativeLayout>
+
 
       <Button
           android:id="@+id/Applied_Physics"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_gravity="center_vertical"
-          android:layout_marginTop="20dp"
+          android:layout_marginTop="10dp"
           android:backgroundTint="@color/white"
           android:fontFamily="sans-serif-light"
           android:text="Applied Physics"
@@ -170,14 +207,31 @@
           android:textColor="@color/black"
           android:textSize="20dp" />
 
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="25dp"
+          android:layout_marginBottom="22dp">
 
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/btechfirstyear3_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3502546896023212/8865051593">
+        </com.google.android.gms.ads.AdView>
+      </RelativeLayout>
 
       <Button
           android:id="@+id/Environmental_Studies"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_gravity="center_vertical"
-          android:layout_marginTop="20dp"
+          android:layout_marginTop="10dp"
           android:backgroundTint="@color/white"
           android:fontFamily="sans-serif-light"
           android:text="Environmental Studies"
@@ -222,6 +276,24 @@
           android:textColor="@color/black"
           android:textSize="20dp" />
 
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="25dp"
+          android:layout_marginBottom="22dp">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/btechfirstyear2_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3502546896023212/6290859142">
+        </com.google.android.gms.ads.AdView>
+      </RelativeLayout>
 
 
       <Button
@@ -229,7 +301,7 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_gravity="center_vertical"
-          android:layout_marginTop="20dp"
+          android:layout_marginTop="10dp"
           android:backgroundTint="@color/white"
           android:fontFamily="sans-serif-light"
           android:text="Mechanics"

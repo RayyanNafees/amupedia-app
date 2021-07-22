@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "edu.educ.amupedia",
+  "applicationId": "education.educate.amupedia",
   "variantName": "release",
   "elements": [
     {
